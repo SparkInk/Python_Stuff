@@ -1,8 +1,11 @@
+#Finds out a maximum number of a sequence
+#Also it lets you choose a way of writing
+#P.S. it's for python3
 import random
+L = list()
 m = input('A way to fill sequence: 1 -> random or 2 -> by yourself?\n')
 if m == '1':
     n = int(input('Enter a number up to random seq:\n'))
-    L = list()
     max = 0
     for i in range(0, n):
         L.append(random.randint(0, n ** 2))
@@ -12,7 +15,6 @@ if m == '1':
     print('The sequence is', L)
     print('Max number in seq is ', max)
 elif m == '2':
-    L = list()
     n = int(input('How many numbers you are going to enter?\n'))
     for i in range(0, n):
         L.append(int(input('Enter number:\n ')))
@@ -22,6 +24,7 @@ elif m == '2':
             max = L[i]
     print('The sequence is', L)
     print('Max number in seq is', max)
-else: print('Wrong number. Please try again')
+else: 
+    print('Wrong number. Please try again')
 
  
