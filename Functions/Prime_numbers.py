@@ -1,3 +1,5 @@
+#This algorithm is based on The Sieve of Eratosthenes
+# it's for finding all prime numbers up to any limit
 n = int(input('Enter a number up to calculate: '))
 L = list()
 L1 = list()
