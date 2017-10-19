@@ -11,4 +11,4 @@ for p in L:
 		for y in L1:
 			if x == y:
 				L.remove(x)
-print('Prime numbers up to', n, 'is:', L)
+print('Prime numbers up to', n, 'is:\n', L)
