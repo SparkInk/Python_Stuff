@@ -1,4 +1,5 @@
 #it's for python3
+#It shows you a series of Fibonacci number
 def fib(j):      # here j is a number up to 
 	a = 0    # you want to display the series   
 	b = 1
