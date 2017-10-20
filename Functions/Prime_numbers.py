@@ -9,7 +9,7 @@ for p in L:
 	L1.clear()
 	for i in L:
 		L1.append(p * i)
-	for x in L:        #Could be low since 1000
+	for x in L:        #Could be low if over 1000
 		for y in L1:
 			if x == y:
 				L.remove(x)
