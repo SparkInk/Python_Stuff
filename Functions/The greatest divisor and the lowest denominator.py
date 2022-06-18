@@ -19,7 +19,7 @@ def gcd_and_lcd(num1, num2):
     
     print("The greatest common divisor is", gcd)
     print("The lowest common denominator is", lcd)
-    print('Divisors of ', num1, ' and ', num2, 'is')
+    print('Divisors of ', num1, ' and ', num2, 'are')
     print(divisors(num1), '\n and \n', divisors(num2) )
     
     return None
