@@ -1,3 +1,6 @@
+# Implementation of finding the basin of attraction
+# Author: Iakov aka "Iasha" Umrikhin
+
 import matplotlib.pyplot as plt
 from sympy import *
 from sympy.plotting import plot
